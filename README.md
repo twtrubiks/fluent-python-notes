@@ -8,7 +8,13 @@ Fluent Python Study Notes 📝
 
 ## 教學
 
-1. [A Pythonic Card Deck](https://github.com/twtrubiks/fluent-python-notes/tree/master/A_Pythonic_Card_Deck)
+1-1. [A Pythonic Card Deck](https://github.com/twtrubiks/fluent-python-notes/tree/master/A_Pythonic_Card_Deck)
+
+2-1. [A Array of Sequences Part 2-1](https://github.com/twtrubiks/fluent-python-notes/tree/master/A_Array_of_Sequences_part_2_1)
+
+2-2. [A Array of Sequences Part 2-2](https://github.com/twtrubiks/fluent-python-notes/tree/master/A_Array_of_Sequences_part_2_2_temp)- 整理中
+
+2-3. [A Array of Sequences Part 2-3](https://github.com/twtrubiks/fluent-python-notes/tree/master/A_Array_of_Sequences_part_2_3_temp)- 整理中
 
 ## 執行環境
 

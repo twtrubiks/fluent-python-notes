@@ -41,14 +41,38 @@ range 的用法可參考 [range.py](https://github.com/twtrubiks/python-notes/bl
 
 你可能會問為什麼 range(2, 11) 不包含 11 呢 ?
 
-其實這是那時候 python 設計的考量，像是 11-2 = 9 就是他的 range 的長度。
+***Why Slices and Range Exclude the Last Item ?***
+
+slices [下一篇](xx)介紹會說明，這裡我們先看 range 就好，
+
+```text
+The Pythonic convention of excluding the last item in slices and ranges works well with the zero-based indexing used in Python, C, and many other languages.
+```
+
+由於上面的原因，所以有一些特性，
+
+1. 像是 range(10)，我們很快的就可以知道它的長度是 10。
+
+2. 當你有 start 和 stop 時，也可以很快的知道長度，像是 range(2, 11)，11-2 = 9。
+
+3. 不用擔心 overlapping 的問題，看下面的例子
+
+```python
+>>> seqs = list(range(10))
+>>> seqs
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+>>> seqs[:2]
+[0, 1]
+>>> seqs[2:]
+[2, 3, 4, 5, 6, 7, 8, 9]
+```
+
+將字串轉成 list。
 
 ```cmd
 >>> list('JQKA')
 ['J', 'Q', 'K', 'A']
 ```
-
-將字串轉成 list。
 
 **<5>** 說明
 
@@ -102,6 +126,24 @@ deck 是一個 instance。
 
 這邊先有個概念即可:relaxed:
 
+簡單說明一下下方的 code，
+
+```python
+self._cards = [Card(rank, suit) for suit in self.suits
+                       for rank in self.ranks]
+```
+
+相等於
+
+```python
+self._cards = []
+for suit in self.suits:
+    for rank in self.ranks:
+        self._cards.append(Card(rank, suit))
+```
+
+因為 python 的特性，才能有前者的這種寫法。
+
 **<7>** 說明
 
 一樣是 special methods
@@ -131,4 +173,18 @@ Card(rank='A', suit='hearts')
 
 先知道這樣用即可，未來會再做更詳細的介紹，因為是 slice 讓這功能如此強大:smile:
 
+## 執行環境
 
+* Python 3.6.4
+
+## Reference
+
+* [fluentpython/example-code](https://github.com/fluentpython/example-code)
+
+## Donation
+
+文章都是我自己研究內化後原創，如果有幫助到您，也想鼓勵我的話，歡迎請我喝一杯咖啡:laughing:
+
+![alt tag](https://i.imgur.com/LRct9xa.png)
+
+[贊助者付款](https://payment.opay.tw/Broadcaster/Donate/9E47FDEF85ABE383A0F5FC6A218606F8)
