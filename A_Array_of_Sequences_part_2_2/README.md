@@ -1,8 +1,6 @@
 # A Array of Sequences  - Part 2-2
 
-準備中
-
-[Youtube Tutorial  - A Array of Sequences - Part 2-2](xxx)
+[Youtube Tutorial  - A Array of Sequences - Part 2-2](https://youtu.be/g1_XjMMB60s)
 
 ***A += Assignment Puzzler***
 
@@ -42,13 +40,13 @@ TypeError: 'tuple' object does not support item assignment
 
 可以透過 [Python Tutor](http://www.pythontutor.com/) 這個網站幫我們視覺化 Python 執行的細節。
 
-如果你不懂如何操作，請點選我文章最前面的 [教學影片](XXX)，
+如果你不懂如何操作，請點選我文章最前面的 [教學影片](https://youtu.be/g1_XjMMB60s)，
 
-我們還可以透過 Python btyecode，可參考官方文件 [dis](https://docs.python.org/3/library/dis.html) module
+我們還可以透過 Python btyecode，可參考官方文件 [dis module](https://docs.python.org/3/library/dis.html)
 
 ```python
 >>> dis.dis('s[a] += b')
-  1          0 LOAD_NAME                0 (s)        # <1>
+  1           0 LOAD_NAME                0 (s)       # <1>
               2 LOAD_NAME                1 (a)       # <2>
               4 DUP_TOP_TWO                          # <3>
               6 BINARY_SUBSCR                        # <4>
@@ -68,7 +66,7 @@ the second top-most stack item ( TOS1)
 the third  top-most stack item (TOS2 )
 ```
 
-大家可以對照我做的這張圖，我理解 [dis](https://docs.python.org/3/library/dis.html) module 的是這樣，
+大家可以對照我做的這張圖，我理解 [dis module](https://docs.python.org/3/library/dis.html) 的是這樣，
 
 如果有錯，在請糾正:smile:
 
@@ -98,7 +96,7 @@ the third  top-most stack item (TOS2 )
 
 簡單翻譯
 
-1. 將 mutable items 放在 tuples 不是很理想 (會發生神奇的問題 )。
+1. 將 mutable items 放在 tuples 中不是很理想 (會發生神奇的問題 )。
 2. Augmented assignment 不是如同一個原子 ( 不可切割 ) 的操作，它只會執行到有問題時，然後丟出一個 exception。
 3. 學習觀看 Python bytecode ，雖然我也花了一點時間研究:laughing:
 
