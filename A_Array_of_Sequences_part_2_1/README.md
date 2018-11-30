@@ -1,6 +1,6 @@
-# A Array of Sequences - Part 2-1
+# An Array of Sequences - Part 2-1
 
-[Youtube Tutorial  - A Array of Sequences - Part 2-1](https://youtu.be/FD4kmQt0-RY)
+[Youtube Tutorial  - An Array of Sequences - Part 2-1](https://youtu.be/FD4kmQt0-RY)
 
 基本上，sequences 分為兩種，
 

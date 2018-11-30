@@ -1,6 +1,6 @@
-# A Array of Sequences  - Part 2-2
+# An Array of Sequences  - Part 2-2
 
-[Youtube Tutorial  - A Array of Sequences - Part 2-2](https://youtu.be/g1_XjMMB60s)
+[Youtube Tutorial  - An Array of Sequences - Part 2-2](https://youtu.be/g1_XjMMB60s)
 
 ***A += Assignment Puzzler***
 

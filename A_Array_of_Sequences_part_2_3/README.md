@@ -1,8 +1,8 @@
-# A Array of Sequences  - Part 2-3
+# An Array of Sequences  - Part 2-3
 
 準備中
 
-[Youtube Tutorial  - A Array of Sequences - Part 2-3](xxx)
+[Youtube Tutorial  - An Array of Sequences - Part 2-3](xxx)
 
 ***list.sort and the sorted Built-In Function***
 
@@ -10,7 +10,7 @@
 
 ```text
 it returns None to remind us that it changes the target object, and does not create a new list.
-This is an important python api convention : functions or methods that change an object an object in place should return None to make it clear to rhe caller that the object itself was changed, and no new object was created.
+This is an important python api convention : functions or methods that change an object an object in place should return None to make it clear to the caller that the object itself was changed, and no new object was created.
 ```
 
 list.sort 的範例可參考 [sort.py](https://github.com/twtrubiks/python-notes/blob/master/sort.py)。
@@ -19,9 +19,9 @@ list.sort 的範例可參考 [sort.py](https://github.com/twtrubiks/python-notes
 
 sorted 的範例可參考 [sorted.py](https://github.com/twtrubiks/python-notes/blob/master/sorted.py)。
 
-once your sequences are sorted, they can be very efficiently searched.
+Once your sequences are sorted, they can be very efficiently searched.
 
-可以使用 standard binary search algorithm ( bisect module ) ，
+可以使用 standard binary search algorithm ( [bisect module](https://docs.python.org/3.6/library/bisect.html) ) 。
 
 ***Managing Ordered Sequences with Bisect***
 
