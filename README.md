@@ -18,6 +18,8 @@ Fluent Python Study Notes 📝
 
 other-1. [What is the Python GIL](https://github.com/twtrubiks/fluent-python-notes/tree/master/what_is_the_python_GIL)
 
+other-2. [What is the Closures](https://github.com/twtrubiks/fluent-python-notes/tree/master/what_is_the_closures)
+
 ## 執行環境
 
 * Python 3.6.4
