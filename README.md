@@ -20,6 +20,8 @@ other-1. [What is the Python GIL](https://github.com/twtrubiks/fluent-python-not
 
 other-2. [What is the Closures](https://github.com/twtrubiks/fluent-python-notes/tree/master/what_is_the_closures)
 
+other-3. [What is the Hashable](https://github.com/twtrubiks/fluent-python-notes/tree/master/what_is_the_hashable)
+
 ## 執行環境
 
 * Python 3.6.4
