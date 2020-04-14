@@ -99,7 +99,7 @@ They all compare unequal (except with themselves), and their hash value is deriv
 
 就要談到 hash table，這部分又要談很久，所以留到下次介紹:smile:
 
-延伸閱讀，[what is the hash table-等待新增](x)
+延伸閱讀，利用 Hash Table 解題目，可參考 [Two_Sum_001.py](https://github.com/twtrubiks/leetcode-python/blob/master/Two_Sum_001.py)
 
 ## Donation
 
