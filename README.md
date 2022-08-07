@@ -24,7 +24,9 @@ other-2. [What is the Closures](https://github.com/twtrubiks/fluent-python-notes
 
 other-3. [What is the Hashable](https://github.com/twtrubiks/fluent-python-notes/tree/master/what_is_the_hashable)
 
-other-3. [What is the Monkey Patch](https://github.com/twtrubiks/fluent-python-notes/tree/master/what_is_the_Monkey_Patch)
+other-4. [What is the Monkey Patch](https://github.com/twtrubiks/fluent-python-notes/tree/master/what_is_the_Monkey_Patch)
+
+other-5. [What is the Descriptor](https://github.com/twtrubiks/fluent-python-notes/tree/master/what_is_the_Descriptor)
 
 ## 執行環境
 

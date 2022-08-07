@@ -21,13 +21,13 @@ str, bytes, bytearray, memoryview, and array.array hold items of one type.
 ***Mutable sequences***
 
 ```text
-list, bytearray, array.array, collections.deque, and memoryview.
+list, sets, dictionary, bytearray, array.array, collections.deque, and memoryview.
 ```
 
 ***Immutable sequences***
 
 ```text
-tuple, str, and bytes.
+tuple, str, int(float), and bytes.
 ```
 
 ***List Comprehensions ( listcomps ) and Generator Expressions ( genexps )***
